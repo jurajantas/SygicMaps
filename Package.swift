@@ -14,12 +14,12 @@ let package = Package(
             targets: ["SygicMaps"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/henrich-mauritz/SygicAuth.git", from: "1.3.1")
+        .package(url: "https://github.com/jurajantas/SygicAuth", from: "1.3.1")
     ],
     targets: [
         .binaryTarget(
             name: "SygicMaps",
-            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/sdk/maps-ios/22.1.2/maps-ios-22.1.2.zip",
-            checksum: "11130f525b149fee079ac31018b754ca36dc9c02ba78526b44b5c0621736d916")
+            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/sdk/maps-ios/25.1.2/maps-ios-25.1.2.zip",
+            checksum: "d49698cea5a304f567e574b17dc9f34665a2c80ac46b6a60bd6496fc99084bfa")
     ]
 )
